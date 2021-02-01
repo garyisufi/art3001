@@ -32,3 +32,16 @@ a {
 .red-text {
     color: red;
 }
+
+.story-link {
+    color: red;
+    text-decoration: none;
+}
+
+.story-link:hover {
+    background-color: white;
+}
+
+.story-narative {
+    color: yellow;
+}
