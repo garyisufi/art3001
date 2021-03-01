@@ -36,7 +36,7 @@ body {
     
 
     transform: translateX(100%);
-    animation: moving 15s linear infinite;
+    animation: moving 10s linear infinite;
 }
 
 @keyframes moving {
@@ -86,6 +86,10 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .fullCenter {
     display: flex;
     position: absolute;
@@ -112,6 +116,50 @@ h1 {
     margin: 30px;
 }
 
+.centerRow {
+    display: flex;
+    justify-content: center;
+}
+
+.artCategories {
+
+}
+
+.catButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.catButton1:hover {
+    background: cyan;
+    opacity: 80%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.catButton2:hover {
+    background: crimson;
+    opacity: 80%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.catButton3:hover {
+    background: cyan;
+    opacity: 80%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.catButton4:hover {
+    background: crimson;
+    opacity: 80%;
+    border-color: black;
+    cursor: pointer;
+}
 
 
 
