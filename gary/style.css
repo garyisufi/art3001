@@ -36,7 +36,7 @@ body {
     
 
     transform: translateX(100%);
-    animation: moving 10s linear infinite;
+    animation: moving 20s linear infinite;
 }
 
 @keyframes moving {
@@ -161,8 +161,39 @@ h2 {
     cursor: pointer;
 }
 
+.blogButton {
+    border-radius: 5px;
+    width: 5%;
+}
 
+.blogButton h2 {
+    font-size: 20px;
+}
 
+.blogButton:hover {
+    background: purple;
+    opacity: 80%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.selectedBlog {
+    background: purple;
+    color: white;
+    border-color: black;
+}
+
+.blogDetails {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.backAndForth {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 
 
