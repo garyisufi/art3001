@@ -10,12 +10,43 @@ body {
 
 .mainBody {
     /* background: #39464E; */
-    background: #1f2227;
+    /* background: #1f2227; */
+    background: black;
     color: white;
     width: auto;
 }
 
 /* NAV SECTION */
+
+.homeHeader {
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.homeHeader p{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200%;
+    
+
+    transform: translateX(100%);
+    animation: moving 15s linear infinite;
+}
+
+@keyframes moving {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
 
 .topHeader {
     background: black;
