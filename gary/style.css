@@ -18,6 +18,14 @@ body {
 
 /* NAV SECTION */
 
+.homeHeaderWrap {
+    background:white;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    
+}
+
 .homeHeader {
     background: white;
     color: black;
@@ -27,25 +35,40 @@ body {
     height: 30px;
     align-items: center;
     overflow: hidden;
+    transition: all .2s ease-out;
 }
 
-.homeHeader p{
-    margin-left: 5px;
-    margin-right: 5px;
+.homeHeader span {
+    padding-right: 30px;
+}
+
+.marquee {
+    height: 30px;
+    width: 100%;
+    /* border: 2px solid #eee; */
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    position: relative;
+    margin: 0px auto;
+    background:black;
+}
+
+.marquee--inner {
+
+    display: block;
     width: 200%;
-    
-
-    transform: translateX(100%);
-    animation: moving 20s linear infinite;
+    /* margin: 70px 0; */
+    position: absolute;
+    animation: marquee 20s linear infinite;
 }
 
-@keyframes moving {
-    0%{
-        transform: translateX(100%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
+.marquee--inner:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
 }
 
 .topHeader {
@@ -121,10 +144,6 @@ h2 {
     justify-content: center;
 }
 
-.artCategories {
-
-}
-
 .catButton {
     display: block;
     margin-left: auto;
@@ -195,9 +214,46 @@ h2 {
     margin-top: 40px;
 }
 
+.exerButton {
+    border-radius: 5px;
+    width: 5%;
+}
 
+.exerButton h2 {
+    font-size: 20px;
+}
 
+.exerButton:hover {
+    background: blue;
+    opacity: 80%;
+    border-color: black;
+    cursor: pointer;
+}
 
+.selectedExer {
+    background: blue;
+    color: white;
+    border-color: black;
+}
+
+.exerDetails {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.story-link {
+    color: red;
+    text-decoration: none;
+}
+
+.story-link:hover {
+    background-color: white;
+}
+
+.story-narative {
+    color: yellow;
+}
 
 
 /* .inputText {
