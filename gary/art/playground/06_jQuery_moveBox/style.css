@@ -1,0 +1,14 @@
+#test {
+  background: red;
+  display: inline-block;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+  min-width: 800px;
+  min-height: 800px;
+  background: cyan;
+}

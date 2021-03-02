@@ -2,14 +2,13 @@
 <html>
     <head>
         <title>Gary's Homepage</title>
-        <link rel="stylesheet" href="../style.css">
-        <script src="../jquery.js"></script>
-        <script src="main.js"></script>
+        <link rel="stylesheet" href="../../style.css">
+        <script src="../../jquery.js"></script>
     </head>
     <body class="mainBody">
         <div class="wrapper">
             <div class="container">
-                <a href="../main.html" style="text-decoration: none;">
+                <a href="../../main.html" style="text-decoration: none;">
                     <div class="marquee">
                         <div class="marquee--inner">
                             <div class="homeHeaderWrap">
@@ -23,33 +22,38 @@
 
                 <div class="topHeader">
                     <nav class="headerNav">
-                        <ul><li><a href="../me">ME</a></li></ul>
-                        <ul><li><a href="../projects">PROJECTS</a></li></ul>
-                        <ul><li><a href="../experiences">EXPERIENCES</a></li></ul>
-                        <ul><li><a href="../art" style="color: orange;">ART</a></li></ul>
-                        <ul><li><a href="../contact">CONTACT</a></li></ul>
+                        <ul><li><a href="../../me">ME</a></li></ul>
+                        <ul><li><a href="../../projects">PROJECTS</a></li></ul>
+                        <ul><li><a href="../../experiences">EXPERIENCES</a></li></ul>
+                        <ul><li><a href="../../art" style="color: orange;">ART</a></li></ul>
+                        <ul><li><a href="../../contact">CONTACT</a></li></ul>
                     </nav>
                 </div>
 
                 <div class="content">
-                    <h1 class="centerRow">Art 3001</h1>
-                    <h1 class="centerRow">Internet Art</h1>
+                    <h1 class="centerRow">Projects</h1>
+                    <nav>
+                        <button class="projButton" onclick="window.location.href='proj-1.html'"><h2>1</h2></button>
+                        <button class="projButton selectedProj" onclick="window.location.href='proj-2.html'"><h2>2</h2></button>
+                    </nav>
 
                     <br>
 
-                    <div class="artCategories">
-                        <button class="catButton catButton1" onclick="window.location.href='blog'"><h2>- BLOG -</h2></button>
+                    <div class="projDetails">
+                        <h2 class="centerRow">Project 2</h2>
+                        <h2 class="centerRow">Final Project</h2>
+
                         <br>
-                        <button class="catButton catButton2" onclick="window.location.href='exercises'"><h2>- EXERCISES -</h2></button>
-                        <br>
-                        <button class="catButton catButton3" onclick="window.location.href='projects'"><h2>- PROJECTS -</h2></button>
-                        <br>
-                        <button class="catButton catButton4" onclick="window.location.href='playground'"><h2>- PLAYGROUND -</h2></button>
+
+                        <p class="centerRow">- - - Coming soon - - -</p>
                     </div>
 
                     <br>
 
-                    <h2 class="centerRow">a Gary Isufi production</h2>
+                    <div class="backAndForth">
+                        <button class="projButton" onclick="window.location.href='proj-1.html'"><</button>
+                        <!-- <button class="projButton" onclick="window.location.href='proj-2.html'">></button> -->
+                    </div>
                 </div>
             </div>
         </div>
