@@ -29,8 +29,9 @@ $(document).ready(function() {
             // go to main.html
             location.href = 'main.html';
         } else if (inputText.toLowerCase() == "tobey maguire") {
-            alert("Welcome to the lair ---- coming soon!");
             // go to secret fun page
+            //alert("Welcome to the lair ---- coming soon!");
+            location.href = 'funko/funko.html';
         } else if (inputText.toLowerCase() == "heesoo lee") {
             alert("Heesoo, leave my site.");
         }

@@ -293,6 +293,61 @@ h2 {
 
 
 
+/* FUNKO POPS */
+
+.funkoTopHeader {
+    background: black;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.funkoNav {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.funkoNav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.funkoHeaderNav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.funkoHeaderNav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.funkoLogoHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.funkoContent {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(7, 1fr); */
+}
+
+.funkoItem {
+    text-align: center;
+    padding: 40px;
+}
+
+.funkoItem img {
+    width: 200px;
+}
 
 
 
