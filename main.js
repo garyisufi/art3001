@@ -31,7 +31,7 @@ $(document).ready(function() {
         } else if (inputText.toLowerCase() == "tobey maguire") {
             // go to secret fun page
             //alert("Welcome to the lair ---- coming soon!");
-            location.href = 'funko/funko.html';
+            location.href = 'funko/funko-new.html';
         } else if (inputText.toLowerCase() == "heesoo lee") {
             alert("Heesoo, leave my site.");
         }
