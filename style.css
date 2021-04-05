@@ -324,7 +324,7 @@ h2 {
 }
 
 .shelf {
-    box-shadow: 0px 10px 15px black;
+    box-shadow: 2px 5px 10px #00adee;
 }
 
 .shelfRow {
@@ -338,7 +338,7 @@ h2 {
 }
 
 .funkoLogoHeader img {
-    height: 150px;
+    height: 120px;
     width: auto;
     margin-top: 20px;
 }
