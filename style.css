@@ -559,6 +559,13 @@ h2 {
 
 
 
+.disabled {
+    pointer-events: none;
+}
+
+
+
+
 
 
 
