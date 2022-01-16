@@ -30,8 +30,8 @@ $(document).ready(function() {
             location.href = 'main.html';
         } else if (inputText.toLowerCase() == "tobey maguire") {
             // go to secret fun page
-            alert("oh boy yeah ---- coming soon!");
-            //location.href = 'funko/funko-new.html';
+            //alert("oh boy yeah ---- coming soon!");
+            location.href = 'tobey/index.html';
         } else if (inputText.toLowerCase() == "heesoo lee") {
             //alert("Heesoo, leave my site.");
             location.href = 'funko/funko-new.html';
